@@ -15,13 +15,27 @@ function CalculatetriangleArea() {
     // traiangle base 
     const TriangleInput = document.getElementById('tariangle-input')
     const tariangleAreaFiled = TriangleInput.value
-    const tariangleBase = parseFloat(tariangleAreaFiled)
-    console.log(tariangleBase)
-    console.log('buttom conected')
+    const Base = parseFloat(tariangleAreaFiled)
+    // console.log(Base)
+    // console.log('buttom conected')
 
     // get triangle height value
     const traiangle = document.getElementById('height-input')
     const traiangleValue = traiangle.value
     const height = parseFloat(traiangleValue)
-    console.log(height)
-}
+    // console.log(height)
+
+
+    // triangle - area
+
+    //  calculate triangle area 
+
+    const area = 0.5 * Base * height;
+
+    console.log('area of the triangle is :', area);
+
+
+
+
+
+}   

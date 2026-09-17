@@ -21,6 +21,7 @@
         <div class="flex flex-col md:flex-row justify-around ">
             <!-- shape card container -->
             <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
                 <!-- triangle card -->
                 <div class="card bg-base-100 w-96 shadow-xl">
                     <figure>
@@ -37,14 +38,15 @@
                             <input id="height-input" class="w-24 text-2xl p-1 rounded-sm" type="text" placeholder="h">
                             <span class="m-auto text-2xl">cm</span>
                         </div>
-
+                        <div>
+                            <p class="text-2xl">Area : <span id="triangle-area"></span> <span>cm<sup>2</sup> </span></p>
+                        </div>
                         <div class="card-actions justify-end">
                             <button onclick="CalculatetriangleArea()"
                                 class="btn btn-primary w-full">calculation</button>
                         </div>
                     </div>
                 </div>
-
 
 
                 <!-- 2nd  -->
