@@ -22,4 +22,10 @@ function CalculaterectangleArea() {
 
 
 
+    // calculate rectangle area
+    const Area = length * width;
+    console.log(Area)
+
+
+
 }
