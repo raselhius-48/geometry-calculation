@@ -9,8 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-
-
 </head>
 
 <body>
@@ -19,8 +17,107 @@
     </header>
 
     <main>
+        <!-- main containt container -->
+        <div class="flex flex-col md:flex-row justify-around ">
+            <!-- shape card container -->
+            <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- triangle card -->
+                <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                        <img src="images/triangle.png" alt="triangle" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Card Title</h2>
+                        <p class="text-center font-3xl">Area = 0.5 x b x h</p>
 
+                        <div class="flex">
+                            <input id="tariangle-input" class="w-24 text-2xl p-1 rounded-sm" type="text"
+                                placeholder="b">
+                            <span class="m-auto text-2xl">cm</span>
+                            <input id="height-input" class="w-24 text-2xl p-1 rounded-sm" type="text" placeholder="h">
+                            <span class="m-auto text-2xl">cm</span>
+                        </div>
+
+                        <div class="card-actions justify-end">
+                            <button onclick="CalculatetriangleArea()"
+                                class="btn btn-primary w-full">calculation</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- 2nd  -->
+                <div>
+                    <!-- triangle card -->
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                            <img src="images/triangle.png" alt="triangle" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions
+                                parts
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd  -->
+
+                <div>
+                    <!-- triangle card -->
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                            <img src="images/triangle.png" alt="triangle" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions
+                                parts
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th -->
+                <div>
+                    <!-- triangle card -->
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                            <img src="images/triangle.png" alt="triangle" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>A card component has a figure, a body part, and inside body there are title and actions
+                                parts
+                            </p>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- area calculation container -->
+            <div class="w-96 w-96 border-2 border-red-500">
+                <h3 class="text-3xl">Area calculation</h3>
+
+            </div>
+        </div>
     </main>
+
+
+    <script src="script/script.js"></script>
 </body>
 
 </html>
