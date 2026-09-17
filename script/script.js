@@ -26,14 +26,16 @@ function CalculatetriangleArea() {
     // console.log(height)
 
 
-    // triangle - area
-
     //  calculate triangle area 
-
     const area = 0.5 * Base * height;
-
     console.log('area of the triangle is :', area);
 
+
+
+    //   display triangle area
+
+    const triangleAreaSpan = document.getElementById('triangle-area');
+    triangleAreaSpan.innerHTML = area
 
 
 
