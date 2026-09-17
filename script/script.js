@@ -9,7 +9,7 @@ console.log('hello i am conected')
 // * step -5: convert the value to a number .use persefloat 
 
 
-
+// triangle 
 
 function CalculatetriangleArea() {
     // traiangle base 
@@ -38,6 +38,5 @@ function CalculatetriangleArea() {
     triangleAreaSpan.innerHTML = area
 
 
+}
 
-
-}   
