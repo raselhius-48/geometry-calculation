@@ -19,9 +19,16 @@ function calculateParallelogramArea() {
     const width = getInputValueById('Parallelogram-wid')
     // console.log(width)
 
-    // calculate area
+    //Parallelogram calculate area
     const area = base * width
-    console.log(area)
+    console.log('Parallelogram of area :', area)
+
+
+    // calculate area display show
+    setInnerTextById('Parallelogram-Span', area)
+
+
+
 
 }
 
@@ -31,4 +38,9 @@ function getInputValueById(inputFieldId) {
     const inputValue = parseFloat(InputValueText)
     // console.log(inputValue)
     return inputValue
+}
+//  calculate area display show function
+function setInnerTextById(elementId, area) {
+    const element = document.getElementById(elementId)
+    element.innerHTML = area
 }
