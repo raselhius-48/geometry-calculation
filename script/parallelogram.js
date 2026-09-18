@@ -12,13 +12,12 @@
 
 // }
 
-
+// get Parallelogram value of base and height
 function calculateParallelogramArea() {
     const base = getInputValueById('Parallelogram-b')
     console.log(base)
     const width = getInputValueById('Parallelogram-wid')
     console.log(width)
-
 }
 
 function getInputValueById(inputFieldId) {
