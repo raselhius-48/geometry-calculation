@@ -28,7 +28,7 @@
                         <img src="images/triangle.png" alt="triangle" />
                     </figure>
                     <div class="card-body">
-                        <h2 class="card-title">Card Title</h2>
+                        <h2 class="card-title mx-auto text-3xl">triangle</h2>
                         <p class="text-center font-3xl">Area = 0.5 x b x h</p>
 
                         <div class="flex">
@@ -81,25 +81,37 @@
                     </div>
                 </div>
 
+
                 <!-- 3rd  -->
 
                 <div>
-                    <!-- triangle card -->
+                    <!-- Parallelogram card -->
                     <div class="card bg-base-100 w-96 shadow-xl">
                         <figure>
-                            <img src="images/triangle.png" alt="triangle" />
+                            <img src="images/parallelogram.png" alt="parallelogram" />
                         </figure>
                         <div class="card-body">
-                            <h2 class="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions
-                                parts
-                            </p>
+                            <h2 class="card-title mx-auto">Parallelogram</h2>
+                            <p class="text-3xl text-center">Area (A) = b x h</p>
+                            <div flex>
+                                <input id="Parallelogram-b" class="w-24 p-1 text-2xl rounded-sm " type="text"
+                                    placeholder="b"> <span class="m-auto">cm</span>
+                                <input id="Parallelogram-wid" class="w-24 p-1 text-2xl rounded-sm " type="text"
+                                    placeholder="h"> <span class="m-auto">cm </span>
+
+
+
+                            </div>
+
                             <div class="card-actions justify-end">
-                                <button class="btn btn-primary">Buy Now</button>
+                                <button onclick="calculateParallelogramArea()"
+                                    class="btn btn-primary w-full">Calculate</button>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
                 <!-- 4th -->
                 <div>
@@ -134,6 +146,7 @@
 
     <script src="script/script.js"></script>
     <script src="script/rectangle.js"></script>
+    <script src="script/parallelogram.js"></script>
 </body>
 
 </html>
