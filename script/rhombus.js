@@ -11,11 +11,21 @@ function calculateRhombusArea() {
     //  calculation area 
     const rhombusArea = 0.5 * d1 * d2
     console.log('rhombusArea = ', rhombusArea)
+
+    setInnerTextById('rhombus-Span', area)
 }
+
 
 function getInputvalueById(inputId) {
     const inputfiled = document.getElementById(inputId)
     const inputValue = inputfiled.value
     const inputparse = parseFloat(inputValue)
     return inputparse
+}
+
+// calculate area display show function
+
+function setInnerTextById(elementId, area) {
+    const rhombusSpan = document.getElementById(elementId)
+    rhombusSpan.innerHTML = area
 }
