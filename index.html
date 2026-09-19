@@ -114,45 +114,59 @@
 
 
 
+
                 <!-- 4th -->
-                <div>
-                    <!-- triangle card -->
-                    <div class="card bg-base-100 w-96 shadow-xl">
-                        <figure>
-                            <img src="images/triangle.png" alt="triangle" />
-                        </figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions
-                                parts
-                            </p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-primary w-full">Calculate</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 5th  -->
-
                 <div>
                     <!-- Rhombus card -->
                     <div class="card bg-base-100 w-96 shadow-xl">
                         <figure>
-                            <img src="images/triangle.png" alt="Rhombus" />
+                            <img src="images/rhombus.png" alt="Rhombus" />
                         </figure>
                         <div class="card-body">
                             <h2 class="card-title justify-center text-3xl">Rhombus</h2>
                             <p class="text-3xl text-center">Area (A) = 0.5 X d<sub>1</sub>X d<sub>2</sub>
                             </p>
-
-
                             <div class="flex">
                                 <input id="rhombus-d1" class="w-24 p-1 text-2xl rounded-sm " type="text"
                                     placeholder="d1">
                                 <span class="text-xl m-auto">cm</span>
                                 <input id="rhombus-d2" class="w-24 p-1 text-2xl rounded-sm " type="text"
                                     placeholder="d2">
+                                <span class="text-xl m-auto">cm</span>
+                            </div>
+
+                            <p class="text-3xl font-semibold">Area =<span
+                                    id="Pentagon-Span">0</span><span>cm<sup>2</sup></span></p>
+
+                            <div class="card-actions justify-end">
+                                <button onclick="calculateRhombusArea()"
+                                    class="btn btn-primary w-full">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 5th  -->
+
+                <div>
+                    <!-- Pentagon card -->
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                            <img src="images/pentagon.png" alt="Pentagon" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title justify-center text-3xl">Pentagon</h2>
+                            <p class="text-3xl text-center">Area (A) = 0.5 X p<sub>1</sub>X b<sub>2</sub>
+                            </p>
+
+
+                            <div class="flex">
+                                <input id="Pentagon-p" class="w-24 p-1 text-2xl rounded-sm " type="text"
+                                    placeholder="p">
+                                <span class="text-xl m-auto">cm</span>
+                                <input id="Pentagon-p2" class="w-24 p-1 text-2xl rounded-sm " type="text"
+                                    placeholder="b">
                                 <span class="text-xl m-auto">cm</span>
                             </div>
 
